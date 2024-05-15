@@ -89,6 +89,81 @@ input
     height: 950px;
 }
 
+#box-diapo-info
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: aquamarine;
+    width: 30%;
+    margin-top: 20%;
+    margin-left: 25%;
+    height: 30%;
+}
+
+.title-info
+{
+    color: black;
+}
+
+.button-info
+{
+    color: red;
+}
+
+.info-1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: azure;
+    width: 90%;
+    height: auto;
+}
+
+.info-2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    width: 90%;
+    height: auto;
+}
+
+#pres-section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgoldenrodyellow;
+    width: 100%;
+    height: 500px;
+}
+
+#box-pres
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: lightgray;
+    width: 60%;
+    height: 75%;
+}
+
+.pres-1
+{
+    color: blue;
+}
+
+.pres-2
+{
+    color: red;
+}
+
 #contact-section
 {
     display: flex;
