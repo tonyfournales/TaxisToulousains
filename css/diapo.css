@@ -1,0 +1,72 @@
+#diapo-section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightskyblue;
+    width: 100%;
+    height: 1000px;
+}
+
+#box-diapo
+{
+    background-image: url('../img/diapo1.png');
+    background-size: cover;
+    width: 100%;
+    height: 950px;
+}
+
+#box-diapo-info
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: aquamarine;
+    width: 25%;
+    margin-top: 20%;
+    margin-left: 25%;
+    height: 30%;
+}
+
+.title-info
+{
+    color: black;
+}
+
+.button-info
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: solid 4px red;
+    color: black;
+    width: 50%;
+    height: 100%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+}
+
+.info-1
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: azure;
+    width: 90%;
+    height: auto;
+}
+
+.info-2
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    width: 90%;
+    height: auto;
+}

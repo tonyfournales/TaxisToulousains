@@ -1,0 +1,48 @@
+#nav-section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgreen;
+    height: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#nav-left
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+    width: 200px;
+    height: 60px;
+    margin-right: 50%;
+}
+
+#nav-right
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+    width: 700px;
+    height: 60px;
+}
+
+.nav-button-left
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+    width: 150px;
+    height: 40px;
+}
+
+.nav-button-right
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+    margin-left: 25px;
+    width: 200px;
+    height: 40px;
+}

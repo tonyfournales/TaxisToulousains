@@ -1,0 +1,128 @@
+#contact-section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightskyblue;
+    width: 100%;
+    height: 1000px;
+}
+
+#box-contact
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgray;
+    width: 70%;
+    height: 70%;
+}
+
+#box-contact-info
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: coral;
+    width: 45%;
+    height: 60%;
+}
+
+#box-contact-input
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: coral;
+    width: 45%;
+    height: 60%;
+}
+
+.line-1
+{
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+    width: 50%;
+    height: 11%;
+    margin-bottom: 2%;
+}
+
+.line-2
+{
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+    width: 50%;
+    height: 11%;
+    margin-bottom: 2%;
+}
+
+.line-3
+{
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+    width: 50%;
+    height: 30%;
+    margin-bottom: 2%;
+}
+
+.line-4
+{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 11%;
+    margin-bottom: 2%;
+}
+
+.line-title
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.line-contact-1
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.line-contact-2
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    color: black;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+}
+
+.line-contact-3
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+}
+
+.line-contact-4
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray; 
+    color: black;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+}
