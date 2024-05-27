@@ -14,9 +14,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: pink;
+    background-color: rgba(255, 192, 203, 0.645);
     width: 500px;
-    height: 100px;
+    height: 140px;
     margin-right: 30%;
 }
 
@@ -25,15 +25,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: pink;
+    background-color: rgba(255, 192, 203, 0.616);
     width: 900px;
     height: 100px;
 }
 
 .nav-button-left
 {
-    width: 300px;
-    height: 100px;
+    width: 380px;
+    height: 125px;
 }
 
 .nav-button-right
@@ -42,9 +42,9 @@
     font-size: 25px;
     background-color: transparent;
     border-color: transparent;
-    margin-left: 25px;
     width: 200px;
     height: 60px;
+    background-color: transparent;
 }
 
 .nav-button-right:hover
@@ -56,7 +56,6 @@
     border-bottom: solid 5px;
     border-color: rgb(196, 24, 24);
     color: rgb(196, 24, 24);
-    margin-left: 25px;
     width: 200px;
     height: 60px;
 }
