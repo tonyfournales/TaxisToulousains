@@ -1,4 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee&family=Jaro:opsz@6..72&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee&family=Jaro:opsz@6..72&family=Oswald:wght@200..700&display=swap');
+
+@keyframes slide {
+    0%, 49.9% {
+        background-image: url('../img/b.jpg');
+        background-position: 0% 0;
+    }
+    50%, 99.9% {
+        background-image: url('../img/b.jpg');
+        background-position: 0% 0;
+    }
+}
+
+@keyframes pulse {
+    0% {
+      box-shadow: 0 0 0 0 rgb(196, 24, 24);
+    }
+    100% {
+      box-shadow: 0 0 0 2em transparent;
+    }
+}
 
 #diapo-section
 {
@@ -17,18 +38,6 @@
     background-repeat: no-repeat;
     animation: slide 10s linear infinite;
 }
-
-@keyframes slide {
-    0%, 49.9% {
-        background-image: url('../img/b.jpg');
-        background-position: 0% 0;
-    }
-    50%, 99.9% {
-        background-image: url('../img/b.jpg');
-        background-position: 0% 0;
-    }
-}
-
 
 #box-diapo-info
 {
@@ -74,7 +83,7 @@
     font-size: 90px;
     width: 100%;
     height: 100%;
-    margin-bottom: 3%;
+    margin-bottom: 1%;
     text-shadow: black 3px 3px 3px;
 }
 
@@ -85,13 +94,13 @@
     align-items: center;
     text-align: center;
     color: white;
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 40px;
+    font-family: "Oswald", sans-serif;
+    font-size: 35px;
     width: 90%;
     height: 20%;
+    margin-bottom: 4%;
     margin-top: 0;
 }
-
 
 .button-info
 {
@@ -106,30 +115,16 @@
     border-radius: 10px;
     width: 100%;
     height: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding: 20px 60px;
     text-shadow: black 1px 1px 3px;
+    transition: color 0.25s, border-color 0.25s;
 }
 
-.button-info:hover
+.button-info:hover, .button-info:focus
 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(196, 24, 24);
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    border: solid 5px rgb(196, 24, 24);
-    border-radius: 10px;
-    width: 100%;
-    height: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 60px;
-    padding-right: 60px;
+    color: #fff;
+    border-color: rgb(160, 44, 44);
+    animation: pulse 1s;
 }
 
 .none
