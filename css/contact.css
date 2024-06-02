@@ -46,7 +46,7 @@
 {
     display: flex;
     justify-content: center;
-    background-color: antiquewhite;
+    background-color: transparent;
     width: 70%;
     height: 20%;
     margin-bottom: 5%;
@@ -56,7 +56,7 @@
 {
     display: flex;
     justify-content: center;
-    background-color: antiquewhite;
+    background-color: transparent;
     width: 70%;
     height: 20%;
     margin-bottom: 5%;
@@ -67,7 +67,7 @@
 {
     display: flex;
     justify-content: center;
-    background-color: antiquewhite;
+    background-color: transparent;
     width: 70%;
     height: 40%;
     margin-bottom: 5%;
@@ -95,8 +95,20 @@
     font-size: 20px;
     width: 100%;
     height: 90%;
+    background-color: transparent;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
     border-radius: 1px;
 }
+
+.line-contact-1:focus {
+    outline: none;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+}
+
 
 .line-contact-2
 {
@@ -106,8 +118,19 @@
     color: black;
     width: 100%;
     height: 90%;
+    background-color: transparent;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
     margin-bottom: 2%;
     border-radius: 1px;
+}
+
+.line-contact-2:focus {
+    outline: none;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
 }
 
 .line-contact-3
